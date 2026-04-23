@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: #222;
   color: white;
   padding: 20px;
   text-align: center;
@@ -16,19 +16,11 @@ nav {
   padding: 10px;
   text-align: center;
 }
+
 nav a {
   color: white;
   text-decoration: none;
-  margin: 10px;
-}
-
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  position: fixed;
-  bottom: 0;
+  margin: 0 10px;
 }
 
 main {
@@ -41,4 +33,19 @@ section {
   border: 1px solid #ccc;
 }
 
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#teste p {
+  color: red;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ddd;
+}
 
