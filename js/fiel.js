@@ -154,5 +154,4 @@ form.addEventListener("submit", function (evento) {
 
 filtroSetor.addEventListener("change", renderizarLista);
 
-// Primeira renderização
 renderizarLista();
